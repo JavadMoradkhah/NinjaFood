@@ -9,8 +9,8 @@
   </head>
   <body class="text-gray-600 font-body">
     <!-- Content Wrapper -->
-    <div>
-      <div>
+    <div class="grid md:grid-cols-3">
+      <div class="md:col-span-1">
         <!-- Navigation -->
         <nav>
           <div>
@@ -33,7 +33,7 @@
         <!-- End Of Navigation -->
       </div>
       <!-- Main Content -->
-      <main class="px-16 py-6 bg-gray-100">
+      <main class="md:col-span-2 px-16 py-6 bg-gray-100">
         <div class="flex justify-center md:justify-end">
           <a class="text-primary" href="#">Log in</a>
           <a class="text-primary ml-2" href="#">Sign up</a>
@@ -50,7 +50,7 @@
             Latest Recipes
           </h4>
           <!-- Cards List -->
-          <div class="mt-8">
+          <div class="mt-8 lg:grid lg:grid-cols-3 lg:gap-3">
             <!-- Card -->
             <div class="card">
               <img class="card__image" src="img/stew.jpg" alt="stew" />
