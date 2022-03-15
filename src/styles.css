@@ -10,7 +10,7 @@
 }
 
 .card__badge {
-  @apply absolute top-0 ml-2 mt-2 p-2 bg-secondary-100 text-secondary-200 text-xs uppercase font-bold rounded-full;
+  @apply absolute flex items-center top-0 ml-2 mt-2 p-2 bg-secondary-100 text-secondary-200 text-xs uppercase font-bold rounded-full;
 }
 
 .card__image {
