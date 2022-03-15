@@ -15,7 +15,7 @@
         <nav>
           <div>
             <h1 class="font-bold uppercase p-4 border-b border-gray-100">
-              <a href="/">Food Ninja</a>
+              <a class="hover:text-gray-700" href="/">Food Ninja</a>
             </h1>
           </div>
           <ul>
@@ -84,10 +84,14 @@
       <!-- Main Content -->
       <main class="md:col-span-2 px-16 py-6 bg-gray-100">
         <div class="flex justify-center md:justify-end">
-          <a class="btn text-primary border-primary md:border-2" href="#"
+          <a
+            class="btn text-primary border-primary md:border-2 hover:bg-primary hover:text-white"
+            href="#"
             >Log in</a
           >
-          <a class="btn text-primary border-primary md:border-2 ml-2" href="#"
+          <a
+            class="btn text-primary border-primary md:border-2 hover:bg-primary hover:text-white ml-2"
+            href="#"
             >Sign up</a
           >
         </div>
@@ -105,7 +109,7 @@
           <!-- Cards List -->
           <div class="mt-8 lg:grid lg:grid-cols-3 lg:gap-3">
             <!-- Card -->
-            <div class="card">
+            <div class="card hover:shadow-lg">
               <img class="card__image" src="img/stew.jpg" alt="stew" />
               <div class="m-5">
                 <span class="font-bold">5 Been Chili Stew</span>
@@ -130,7 +134,7 @@
                 <span class="leading-none ml-1">25 mins</span>
               </div>
             </div>
-            <div class="card">
+            <div class="card hover:shadow-lg">
               <img class="card__image" src="img/noodles.jpg" alt="noodles" />
               <div class="m-5">
                 <span class="font-bold">Veg Noodles</span>
@@ -155,7 +159,7 @@
                 <span class="leading-none ml-1">25 mins</span>
               </div>
             </div>
-            <div class="card">
+            <div class="card hover:shadow-lg">
               <img class="card__image" src="img/curry.jpg" alt="curry" />
               <div class="m-5">
                 <span class="font-bold">Tofu Curry</span>
@@ -190,7 +194,11 @@
             <!-- Cards goes here -->
           </div>
           <div class="flex justify-center">
-            <div class="btn bg-secondary-100 text-secondary-200">Load More</div>
+            <div
+              class="btn bg-secondary-100 text-secondary-200 hover:shadow-inner"
+            >
+              Load More
+            </div>
           </div>
         </div>
         <!-- End OF Latest Recipes -->
