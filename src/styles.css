@@ -16,3 +16,8 @@
 .card__image {
   @apply w-full h-32 sm:h-48 object-cover;
 }
+
+/* Buttons */
+.btn {
+  @apply rounded-full py-2 px-3 uppercase text-xs font-bold cursor-pointer tracking-wider;
+}
